@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 
 app = Flask("superscrapper")
 
+#that's new!
+
 @app.route("/")
 def home():
     return render_template("scrapper.html")
